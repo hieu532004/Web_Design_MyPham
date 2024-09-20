@@ -1,3 +1,0 @@
-{
-    document.elementsFromPoint("hi demo")
-}
