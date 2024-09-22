@@ -1,165 +1,651 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyPham29 - Mỹ Phẩm Hàn Quốc</title>
     <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="Home.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
+
 <body>
+    <div class="container-fuid">
+        <header>
+            <div class="header_logo">
+                <div class="header-wapper">
+                    <div class="logo_left">
+                        <a href="#"><img src="https://mypham20.mauthemewp.com/wp-content/uploads/2022/11/logo-m.png"
+                                alt="" class='logo_img_left'></a>
+                        <div class="header_input">
+                            <input type="text" class='input_text' placeholder="Bạn cần tìm gì?">
+                            <button class='btn_search'>
+                                <i class="fa fa-search icon_search"></i>
+                            </button>
+                        </div>
+                    </div>
 
-    <!-- Header -->
-    <header>
-        <div class="header-top">
-            <div class="container">
-                <div class="header-left">
-                    <a href="#" class="logo"><img src="/IMG/logo-m.png" alt="MyPham29"></a>
+                    <div class="header_logo_right">
+                        <div class="header_logo_contact">
+                            <img src="https://static.vecteezy.com/system/resources/previews/003/720/498/original/phone-icon-telephone-icon-symbol-for-app-and-messenger-vector.jpg"
+                                alt="" class='img_hotline'>
+                            <div class="header_hotline">
+                                <p class='header_hotline_text'>Hỗ trợ khách hàng</p>
+                                <p><a class='text_contact' href="">1900 636 099</a></p>
+                            </div>
+                        </div>
+                        <div class="header_login">
+                            <a href="#" class='login_text'>Đăng nhập</a>
+                            <div class="header_cart_store">
+                                <img src="https://mypham20.mauthemewp.com/wp-content/uploads/2022/11/cart-icon.png"
+                                    alt="" class='img_store'>
+                                <p><a href="#" class='text_store'>Giỏ hàng</a></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="header-middle">
-                    <input type="text" class="search-box" placeholder="Tìm kiếm sản phẩm...">
-                    <button class="search-btn">Tìm kiếm</button>
+            </div>
+            <!-- <nav> -->
+            <div class="header">
+                <div class="header-main">
+                    <div class="menu">
+                        <div class="menu_dropdown">
+                            <i><img src="IMG/iconmenu.png" alt="" class="fa-bars-menu-icon"></i>
+                            <p class='menu_txt'>Danh mục sản phẩm</p>
+                            <i class="fa fa-arrow-down menu-icon"></i>
+                        </div>
+                        <div class="dropdown-content">
+                            <a href="#" class='dropdown-item'>Chăm sóc cơ thể</a>
+                            <a href="#" class='dropdown-item'>Chăm sóc da</a>
+                            <a href="#" class='dropdown-item'>Chăm sóc tóc</a>
+                            <a href="#" class='dropdown-item'>Đồ da dụng</a>
+                            <a href="#" class='dropdown-item'>Đồ trang điểm</a>
+                            <a href="#" class='dropdown-item'>Hàng tiêu dùng</a>
+                            <a href="#" class='dropdown-item'>Sâm nấm linh chi táo đỏ</a>
+                            <a href="#" class='dropdown-item'>Sâm tươi theo mùa</a>
+                            <a href="#" class='dropdown-item'>Sữa, đồ mẹ và bé </a>
+                            <a href="#" class='dropdown-item'>Thực phẩm chức năng</a>
+                            <a href="#" class='dropdown-item'>Tinh dầu</a>
+                        </div>
+                    </div>
+                    <!-- </nav> -->
+                    <nav>
+                        <div class="nav_header">
+                            <a href="#home">Trang chủ</a>
+                            <a href="#about">Giới thiệu</a>
+                            <a href="#store">Cửa hàng</a>
+                            <a href="#news">Tin tức</a>
+                            <a href="#check-order">Kiểm tra đơn hàng</a>
+                            <a href="#contact">Liên hệ</a>
+                        </div>
+                    </nav>
+
+
                 </div>
-                <div class="header-right">
-                    <p>Hotline: <strong>0896.042.452</strong></p>
-                    <a href="#" class="login-btn">Đăng nhập</a>
-                    <a href="#" class="register-btn">Đăng ký</a>
+            </div>
+        </header>
+
+        <div class="main-container">
+            <div class="left-side"></div> <!-- Phần khoảng trắng bên trái -->
+            <div class="right-side">
+                <!-- Phần slide chính -->
+                <div class="slider-container">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="IMG/slider-1.png" class="d-block w-100" alt="Slide 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="IMG/slider-2.png" class="d-block w-100" alt="Slide 2">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Phần ảnh nhỏ bên phải -->
+                <div class="small-images">
+                    <img src="IMG/bn.jpg" alt="Small Image 1">
+                    <img src="IMG/right-banner-1.png" alt="Small Image 2">
                 </div>
             </div>
         </div>
 
-        <!-- Navbar -->
-        <nav class="navbar">
-            <ul>
-                <li><a href="#">Trang chủ</a></li>
-                <li><a href="#">Giới thiệu</a></li>
-                <li><a href="#">Cửa hàng</a></li>
-                <li><a href="#">Tin tức</a></li>
-                <li><a href="#">Liên hệ</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Main Section -->
-    <main>
-        <section class="banner-section">
+        <section class="danhmuc">
             <div class="container">
-                <aside class="sidebar">
-                    <ul>
-                        <li><a href="#">Chăm sóc mặt</a></li>
-                        <li><a href="#">Dưỡng thể</a></li>
-                        <li><a href="#">Sản phẩm nổi bật</a></li>
-                        <li><a href="#">Thực phẩm chức năng</a></li>
-                        <li><a href="#">Vitamins bổ sung</a></li>
-                    </ul>
-                </aside>
-                <div class="banner">
-                    <img src="banner-korea.jpg" alt="Mai Korea">
+                <div style="margin-top: 40px;">
+                    <h3>DANH MỤC NỔI BẬT</h3>
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col">
+                        <div class="box">
+                            <a href="#"><img src="IMG/icon-kem-duong.png" alt=""></a>
+                            <p>kem dưỡng</p>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <a href="#"><img src="IMG/sua-rua-mat.png" alt=""></a>
+                            <p>Sữa rửa mặt</p>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <a href="#"><img src="IMG/dap-mat-na.png" alt=""></a>
+                            <p>Đắp mặt nạ</p>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <a href="#"><img src="IMG/trang-diem.png" alt=""></a>
+                            <p>Trang điểm</p>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <a href="#"><img src="IMG/set-my-pham.png" alt=""></a>
+                            <p>Set mỹ phẩm</p>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <a href="#"><img src="IMG/cham-soc-toc.png" alt=""></a>
+                            <p>Chăm sóc tóc</p>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <a href="#"><img src="IMG/sua-bot.png" alt=""></a>
+                            <p>Sữa bột</p>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <a href="#"><img src="IMG/vitamin-bo-sung.png" alt=""></a>
+                            <p>Vitamin bổ sung</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="khuyenmai">
+                    <div class="promo-container">
+                        <div class="promo-item">
+                            <div class="mkm">
+                                <b>NHẬP MÃ: GIAMGIA99K</b>
+                                <p>Mã giảm cho đơn hàng trên 1 triệu</p>
+                                <button>Sao chép</button>
+                                <a href="#"><b>Điều kiện</b></a>
+                            </div>
+                        </div>
+                        <div class="promo-item">
+                            <div class="mkm">
+                                <b>NHẬP MÃ: GIAMGIA99K</b>
+                                <p>Mã giảm cho đơn hàng trên 1 triệu</p>
+                                <button>Sao chép</button>
+                                <a href="#"><b>Điều kiện</b></a>
+                            </div>
+                        </div>
+                        <div class="promo-item">
+                            <div class="mkm">
+                                <b>NHẬP MÃ: GIAMGIA99K</b>
+                                <p>Mã giảm cho đơn hàng trên 1 triệu</p>
+                                <button>Sao chép</button>
+                                <a href="#"><b>Điều kiện</b></a>
+                            </div>
+                        </div>
+                        <div class="promo-item">
+                            <div class="mkm">
+                                <b>NHẬP MÃ: GIAMGIA99K</b>
+                                <p>Mã giảm cho đơn hàng trên 1 triệu</p>
+                                <button>Sao chép</button>
+                                <a href="#"><b>Điều kiện</b></a>
+                            </div>
+                        </div>
+                        <div class="promo-item">
+                            <div class="mkm">
+                                <b>NHẬP MÃ: GIAMGIA99K</b>
+                                <p>Mã giảm cho đơn hàng trên 1 triệu</p>
+                                <button>Sao chép</button>
+                                <a href="#"><b>Điều kiện</b></a>
+                            </div>
+                        </div>
+                        <div class="promo-item">
+                            <div class="mkm">
+                                <b>NHẬP MÃ: GIAMGIA99K</b>
+                                <p>Mã giảm cho đơn hàng trên 1 triệu</p>
+                                <button>Sao chép</button>
+                                <a href="#"><b>Điều kiện</b></a>
+                            </div>
+                        </div>
+                        <div class="promo-item">
+                            <div class="mkm">
+                                <b>NHẬP MÃ: GIAMGIA99K</b>
+                                <p>Mã giảm cho đơn hàng trên 1 triệu</p>
+                                <button>Sao chép</button>
+                                <a href="#"><b>Điều kiện</b></a>
+                            </div>
+                        </div>
+                        <div class="promo-item">
+                            <div class="mkm">
+                                <b>NHẬP MÃ: GIAMGIA99K</b>
+                                <p>Mã giảm cho đơn hàng trên 1 triệu</p>
+                                <button>Sao chép</button>
+                                <a href="#"><b>Điều kiện</b></a>
+                            </div>
+                        </div>
+                        <div class="promo-item">
+                            <div class="mkm">
+                                <b>NHẬP MÃ: GIAMGIA99K</b>
+                                <p>Mã giảm cho đơn hàng trên 1 triệu</p>
+                                <button>Sao chép</button>
+                                <a href="#"><b>Điều kiện</b></a>
+                            </div>
+                        </div>
+                        <div class="promo-item">
+                            <div class="mkm">
+                                <b>NHẬP MÃ: GIAMGIA99K</b>
+                                <p>Mã giảm cho đơn hàng trên 1 triệu</p>
+                                <button>Sao chép</button>
+                                <a href="#"><b>Điều kiện</b></a>
+                            </div>
+                        </div>
+                        <div class="promo-item">
+                            <div class="mkm">
+                                <b>NHẬP MÃ: GIAMGIA99K</b>
+                                <p>Mã giảm cho đơn hàng trên 1 triệu</p>
+                                <button>Sao chép</button>
+                                <a href="#"><b>Điều kiện</b></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Danh Mục Nổi Bật -->
-        <section class="highlighted-categories">
-            <div class="container">
-                <h2>Danh Mục Nổi Bật</h2>
-                <div class="categories">
-                    <div class="category">
-                        <img src="IMG/icon-kem-duong.png" alt="#">
-                        <p>Chăm sóc mặt</p>
+        <section class="container products">
+            <h3>TOP SẢN PHẨM BÁN CHẠY</h3>
+            <div class="listProduct">
+                <div>
+                    <div class="slides">
+                        <div>
+                            <img src="https://mypham20.mauthemewp.com/wp-content/uploads/2022/11/product-tag-banner.png"
+                                alt="">
+                        </div>
+
+                        <div class="topProduct">
+                            <a href="#" class="btn btn-success"><span>Dầu gội đầu</span></a>
+                            <a href="#" class="btn btn-success"><span>Ví collagen tươi</span></a>
+                            <a href="#" class="btn btn-success"><span>Kem chống nắng</span></a>
+                            <a href="#" class="btn btn-success"><span>Mặt nạ</span></a>
+                            <a href="#" class="btn btn-success"><span>Mặt nạ sale</span></a>
+                            <a href="#" class="btn btn-success"><span>Sữa rửa mặt</span></a>
+                            <a href="#" class="btn btn-success"><span>Sữa dưỡng thể</span></a>
+                        </div>
                     </div>
-                    <div class="category">
-                        <img src="IMG/sua-rua-mat.png" alt="#">
-                        <p>Sữa rửa mặt</p>
+
+                </div>
+                <div class="wapper"></div>
+            </div>
+
+        </section>
+
+        <section class="container products">
+            <h3>THỰC PHẨM CHỨC NĂNG</h3>
+            <div class="listProduct-menu">
+                <div class="wapper-menu">
+                    <div class="product-menu">
+                        <div class="productImg">
+                            <img src="https://mypham20.mauthemewp.com/wp-content/uploads/2022/11/kem-chong-nang-cho-be-pororo-sun-cream-50ml-mau-moi-300x300.jpg" alt="">
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </div>
+                        <div class="textProduct">
+                            <h3>Kem Chống Nắng Cho Bé Pororo Sun Cream 50ml mẫu mới</h3>
+                            <span>105.000₫</span>
+                        </div>
                     </div>
-                    <div class="category">
-                        <img src="IMG/dap-mat-na.png" alt="#">
-                        <p>Đắp mặt nạ</p>
+
+                    <div class="product-menu">
+                        <div class="productImg">
+                            <img src="https://mypham20.mauthemewp.com/wp-content/uploads/2022/11/dung-dich-ve-sinh-phu-nu-ohui-cao-cap-300x300.jpg" alt="">
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </div>
+                        <div class="textProduct">
+                            <h3>Dung dịch vệ sinh phụ nữ OHUI cao cấp</h3>
+                            <span>325.000₫</span>
+                        </div>
                     </div>
-                    <div class="category">
-                        <img src="IMG/trang-diem.png" alt="#">
-                        <p>Trang điểm</p>
+
+                    <div class="product-menu">
+                        <div class="productImg">
+                            <img src="https://mypham20.mauthemewp.com/wp-content/uploads/2022/11/set-duong-ohui-prime-advancer-xanh-chong-lao-hoa-da-cang-bong-da-cao-cap-300x300.jpg" alt="">
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </div>
+                        <div class="textProduct">
+                            <h3>Set dưỡng OHUI PRIME ADVANCER xanh</h3>
+                            <span>1.655.000₫</span>
+                        </div>
                     </div>
-                    <div class="category">
-                        <img src="IMG/set-my-pham.png" alt="#">
-                        <p>Set mỹ phẩm</p>
+
+                    <div class="product-menu">
+                        <div class="productImg">
+                            <img src="https://mypham20.mauthemewp.com/wp-content/uploads/2022/11/set-ohui-aqua-miracle-xanh-cap-nuoc-kiem-dau-chong-lao-hoa-300x300.jpg" alt="">
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </div>
+                        <div class="textProduct">
+                            <h3>Set OHUI AQUA MIRACLE xanh cấp nước kiềm dầu chống lão hóa</h3>
+                            <span>1.150.000₫</span>
+                        </div>
                     </div>
-                    <div class="category"></div>
-                        <img src="IMG/cham-soc-toc.png" alt="#">
-                        <p>Chăm sóc tóc</p>
+
+                    <div class="product-menu">
+                        <div class="productImg">
+                            <img src="https://mypham20.mauthemewp.com/wp-content/uploads/2022/11/kem-danh-rang-tre-em-lion-kids-safe-han-quoc-co-the-nuot-duoc-90g-300x300.jpg" alt="">
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </div>
+                        <div class="textProduct">
+                            <h3>Kem đánh răng trẻ em Lion Kids Safe Hàn Quốc có thể nuốt được</h3>
+                            <span>80.000₫</span>
+                        </div>
                     </div>
-                    <div class="category"></div>
-                        <img src="IMG/sua-bot.png" alt="#">
-                        <p>Sữa bột</p>
+
+                    <div class="product-menu">
+                        <div class="productImg">
+                            <img src="https://mypham20.mauthemewp.com/wp-content/uploads/2022/11/tay-giun-zelcom-so-1-han-quoc-300x300.jpg" alt="">
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </div>
+                        <div class="textProduct">
+                            <h3>Tẩy giun Zelcom số 1 Hàn Quốc tốt cho trẻ</h3>
+                            <span>80.000₫</span>
+                        </div>
                     </div>
-                    <div class="category"></div>
-                        <img src="IMG/vitamin-bo-sung.png" alt="#">
-                        <p>Vitamin bổ sung</p>
+
+                    <div class="product-menu">
+                        <div class="productImg">
+                            <img src="https://mypham20.mauthemewp.com/wp-content/uploads/2022/11/thach-hong-sam-sanga-kid-korean-red-ginseng-jelly-cho-be-300x300.jpg" alt="">
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </div>
+                        <div class="textProduct">
+                            <h3>Thạch Hồng Sâm Sanga Kid Korean Red Ginseng Jelly Cho Bé</h3>
+                            <span>375.000₫</span>
+                        </div>
                     </div>
+
+                    <div class="product-menu">
+                        <div class="productImg">
+                            <img src="https://mypham20.mauthemewp.com/wp-content/uploads/2022/11/collagen-cherry-thesem-han-quoc-dang-bot-hop-30-goi-300x300.jpg" alt="">
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </div>
+                        <div class="textProduct">
+                            <h3>Collagen Cherry TheSem Hàn Quốc dạng bột (Hộp 30 gói)</h3>
+                            <span>139.000₫</span>
+                        </div>
+                    </div>
+
+                    <div class="product-menu">
+                        <div class="productImg">
+                            <img src="https://mypham20.mauthemewp.com/wp-content/uploads/2022/11/phan-nuoc-sulwhasoo-perfecting-cushion-ex-cao-cap-han-quoc-1-300x300.jpg" alt="">
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </div>
+                        <div class="textProduct">
+                            <h3>Phấn nước Sulwhasoo Perfecting Cushion EX cao cấp Hàn Quốc</h3>
+                            <span>490.000₫</span>
+                        </div>
+                    </div>
+
+                    <div class="product-menu">
+                        <div class="productImg">
+                            <img src="https://mypham20.mauthemewp.com/wp-content/uploads/2022/11/sua-rua-mat-whoo-trang-duong-trang-da-cao-cap-40ml-tach-set-nobox-300x300.jpg" alt="">
+                            <div class="cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </div>
+                        <div class="textProduct">
+                            <h3>Sữa rửa mặt Whoo trắng dưỡng trắng da cao cấp 40ml tách set...</h3>
+                            <span>120.000₫</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="container">
+            <h3>THƯƠNG HIỆU NỔI BẬT</h3>
+            <div class="lgthuonghieu">
+                <div class="logo-thuonghieu">
+                    <div class="thuonghieu-item">
+                        <div class="thuonghieu">
+                            <img src="IMG/brand-1-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="thuonghieu-item">
+                        <div class="thuonghieu">
+                        </div>
+                        <img src="IMG/brand-2.jpg" alt="">
+                    </div>
+                    <div class="thuonghieu-item">
+                        <div class="thuonghieu">
+                        </div>
+                        <img src="IMG/brand-3.jpg" alt="">
+                    </div>
+                    <div class="thuonghieu-item">
+                        <div class="thuonghieu">
+                        </div>
+                        <img src="IMG/brand-4.jpg" alt="">
+                    </div>
+                    <div class="thuonghieu-item">
+                        <div class="thuonghieu">
+                        </div>
+                        <img src="IMG/brand-5.jpg" alt="">
+                    </div>
+                    <div class="thuonghieu-item">
+                        <div class="thuonghieu">
+                        </div>
+                        <img src="IMG/brand-6.jpg" alt="">
+                    </div>
+                    <div class="thuonghieu-item">
+                        <div class="thuonghieu">
+                            <img src="IMG/brand-1-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="thuonghieu-item">
+                        <div class="thuonghieu">
+                        </div>
+                        <img src="IMG/brand-2.jpg" alt="">
+                    </div>
+                    <div class="thuonghieu-item">
+                        <div class="thuonghieu">
+                        </div>
+                        <img src="IMG/brand-3.jpg" alt="">
+                    </div>
+                    <div class="thuonghieu-item">
+                        <div class="thuonghieu">
+                        </div>
+                        <img src="IMG/brand-4.jpg" alt="">
+                    </div>
+                    <div class="thuonghieu-item">
+                        <div class="thuonghieu">
+                        </div>
+                        <img src="IMG/brand-5.jpg" alt="">
+                    </div>
+                    <div class="thuonghieu-item">
+                        <div class="thuonghieu">
+                        </div>
+                        <img src="IMG/brand-6.jpg" alt="">
+                    </div>
+
                 </div>
             </div>
         </section>
 
-        <!-- Sản Phẩm Bán Chạy -->
-        <section class="top-products">
+        <section>
             <div class="container">
-                <h2>Top Sản Phẩm Bán Chạy</h2>
-                <div class="product-grid">
-                    <!-- Sản phẩm 1 -->
-                    <div class="product">
-                        <img src="product-1.jpg" alt="Kem chống nắng">
-                        <p class="product-name">Kem Chống Nắng Cho Da</p>
-                        <p class="product-price">198,000đ</p>
-                    </div>
-                    <!-- Sản phẩm 2 -->
-                    <div class="product">
-                        <img src="product-2.jpg" alt="Sữa rửa mặt Ohui">
-                        <p class="product-name">Sữa Rửa Mặt Ohui</p>
-                        <p class="product-price">325,000đ</p>
-                    </div>
-                    <!-- Sản phẩm 3 -->
-                    <div class="product">
-                        <img src="product-3.jpg" alt="Dưỡng da Ohui Prime">
-                        <p class="product-name">Bộ Dưỡng Da Ohui Prime</p>
-                        <p class="product-price">1,025,000đ</p>
-                    </div>
-                    <!-- Sản phẩm 4 -->
-                    <div class="product">
-                        <img src="product-4.jpg" alt="Sét chống lão hóa">
-                        <p class="product-name">Sét Chống Lão Hóa</p>
-                        <p class="product-price">1,195,000đ</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+                <h3>KIẾN THỨC HỮU ÍT</h3>
+                <div class="row">
+                    
+                        <div class="col-3">
+                            <a href="#" style="text-decoration: none; color: black;">
+                                <img src="IMG/ban-banh-cho-nguoi-an-kieng-y-tuong-kinh-doanh-lai-lon-2022-980-300x200.jpg" alt="">
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer-container">
-            <div class="container">
-                <div class="footer-left">
-                    <h3>Thương Hiệu Nổi Bật</h3>
-                    <div class="brands">
-                        <img src="brand1.png" alt="O HUI">
-                        <img src="brand2.png" alt="Sulwhasoo">
-                        <img src="brand3.png" alt="Laneige">
-                    </div>
+                                <p><b>Bán cho khách hàng ăn kiên, ý tương kinh doanh lãi lớn</b></p>
+                                
+                                <p class="fontchu">08/09/2022<br> Xu hướng tìm đến các thực phẩm ăn kiêng, có lợi cho sức khỏe của...</p>
+                            </a>
+                            
+                        </div>
+                    
+                    
+                        <div class="col-3">
+                            <a href="#" style="text-decoration: none;color: black;">
+                                <img src="IMG/goi-y-5-y-tuong-concept-mo-tiem-banh-cuc-hut-khach-976-300x200.jpg" alt="">
+                                <p><b>Gợi ý 5 ý tưởng kinh concept mở tiệm bánh cực hút khách</b></p>                              
+                                <p class="fontchu">08/09/2022<br> Khái niệm quán café, tiệm bánh concept đối với một số nước Châu Á như...</p>
+                            </a>
+                           
+                        </div>
+                    </a>
+                    
+                        <div class="col-3">
+                            <a href="#" style="text-decoration: none;color: black;">
+                                <img src="IMG/khoi-nghiep-thanh-cong-trong-nganh-banh-971-300x199.jpg" alt="">
+                                <p><b>Khởi nghiệp thành công trong ngành bánh</b></p>
+                                
+                                <p class="fontchu">08/09/2022<br> Bạn nghĩ một người làm bánh giỏi là đã có thể mở hiệu bánh? Đừng...</p>
+                            </a>
+                            
+                        </div>
+                    </a>
+                    
+                        <div class="col-3" style="text-decoration: none;">
+                            <a href="#" style="text-decoration: none;color: black;">
+                                <img src="IMG/cac-loai-banh-ngot-ngon-nhat-the-gioi-959-300x200.jpg" alt="">
+                                <p><b>Các loại bánh ngon nhất thế giới</b></p>
+                                
+                                <p class="fontchu">08/09/2022<br> Khám phá các loại bánh ngọt ngon và nổi tiếng nhất Thế Giới Thiên đường...</p>
+                            </a>
+                           
+                        </div>
+                    </a>
                 </div>
-                <div class="footer-right">
-                    <h3>Kiến Thức Hữu Ích</h3>
-                    <ul>
-                        <li><a href="#">Bí quyết làm đẹp</a></li>
-                        <li><a href="#">Chăm sóc da</a></li>
-                        <li><a href="#">HI HI </a></li>
-                    </ul>
+
+            </div>
+
+
+    </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-column about-us">
+                <h3>Về chúng tôi</h3>
+                <p>Chuyên cung cấp các sản phẩm Hàn Quốc chính hãng với một mức giá tiết kiệm hợp lý.</p>
+                <p>Địa chỉ: 600A Điện Biên Phủ, P22, Q.Bình Thạnh, TP.HCM</p>
+                <p>Số điện thoại: 096528xxxx</p>
+                <p>Email: shopmyphamxxx@gmail.com</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-envelope"></i></a>
                 </div>
             </div>
-        </div>
-        <div class="footer-bottom">
-            <p>© 2024 MyPham29. All rights reserved.</p>
+
+            <div class="footer-column support">
+                <h3>Hỗ trợ khách hàng</h3>
+                <ul class='support-item'>
+                    <li><a href="#" class='footer-link'>Liên hệ</a></li>
+                    <li><a href="#" class='footer-link'>Tin tức</a></li>
+                    <li><a href="#" class='footer-link'>Hướng dẫn làm bánh</a></li>
+                </ul>
+            </div>
+            <div class="footer-column policy">
+                <h3>Chính sách</h3>
+                <ul class='support-item'>
+                    <li><a href="#" class='footer-link'>Chính sách bán hàng</a></li>
+                    <li><a href="#" class='footer-link'>Chính sách đổi trả</a></li>
+                    <li><a href="#" class='footer-link'>Chính sách giao hàng</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column newsletter">
+                <h3>Đăng ký nhận tin</h3>
+                <div class="sub-item_right">
+                    <input class='footer-input' type="email" placeholder="Nhập địa chỉ email" />
+                    <button class='btn-sub'>ĐĂNG KÝ</button>
+                </div>
+                <h3>Phương thức thanh toán</h3>
+                <div class="payment-methods">
+                    <img src="https://mypham20.mauthemewp.com/wp-content/uploads/2022/11/footer-trust-badge.png"
+                        alt="Visa" />
+                </div>
+            </div>
         </div>
     </footer>
-
-    <script src="scripts.js"></script>
+    </div>
 </body>
+<script src="Home.js"></script>
+<script src="https://kit.fontawesome.com/b8d3f92d8d.js" crossorigin="anonymous"></script>
+
+
 </html>
